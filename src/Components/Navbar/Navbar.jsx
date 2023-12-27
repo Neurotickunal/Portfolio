@@ -3,11 +3,12 @@ import './Navbar.css'
 import "../Toggle/Toggle"
 import Toggle from '../Toggle/Toggle'
 import { Link } from "react-scroll"
+import logo from "../../img/logo.png"
 const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
-        <div className="n-name">Kunal</div>
+       
         <Toggle/>
       </div>
       <div className="n-right">

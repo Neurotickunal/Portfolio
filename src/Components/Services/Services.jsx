@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -27,9 +27,13 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I develop full-stack solutions, bridging frontend (React) and backend
+          (Node.js/Python).
+           
           <br />
-          ispum is simpley dummy text of printing
+          Services span UX design, thorough testing, and
+          maintenance (bug fixes, updates).
+         
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -47,7 +51,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={"Photoshop, Adobe Illustrator, Coral Draw "}
           />
         </motion.div>
         {/* second card */}
@@ -72,7 +76,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Figma, AdobeXd, Sketch, WebFlow"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
