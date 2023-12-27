@@ -15,7 +15,13 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Your MERN expense tracker is user-friendly, functionally robust, and performs well. Security is solid, though could benefit from a detailed audit. Code is organized with reliable testing, ensuring scalability for future growth. Gathering user feedback would boost satisfaction. Overall, it's a commendable project with minor areas for improvement in security and user engagement."
+        
+        
+        
+        
+        
+        
     },
     {
       img: profilePic2,
@@ -40,9 +46,11 @@ const Testimonial = () => {
         <span>Clients always get </span>
         <span>Exceptional Work </span>
         <span>from me...</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
-
+        <div
+          className="blur t-blur1"
+          style={{ background: "var(--purple)" }}
+        ></div>
+        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
       <Swiper
         // install Swiper modules
